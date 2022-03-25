@@ -1,0 +1,182 @@
+@import url(./fontes.css);
+@import url(./style-header.css);
+@import url(./style-about.css);
+@import url(./style-experiencia.css);
+@import url(./style-projetos.css);
+@import url(./style-contato.css);
+@import url(./style-footer.css);
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+     --bg-color:rgb(12, 12, 12);
+     --bg-color1:#151515;
+     --bg-color2:#121212;
+     --bg-colorForm:#202020;
+     --blue-color:#00D2DF;
+     --gradiente-color1: linear-gradient(#CF3F75, #6619B4);             
+     --gradiente-color2: linear-gradient(90deg, #9259F7, #10D6E2);
+     --white:white;
+     --border-teste: solid 1px red;
+     --font-primary:'Inter', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+    font-family: var(--font-primary);
+}
+
+.container{
+    min-height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto;
+/*     align-items: center;
+    justify-content: center; */
+
+}
+
+/* =============================================== */
+
+#header{
+    grid-row-start: 1;
+    grid-row-end: 1;
+    width: 100%;
+    background-color: var(--bg-color2);
+}
+
+#about{
+    grid-row-start: 2;
+    grid-row-end: 2;
+    width: 100%;
+    padding: 100px 180px;
+    background-color: var(--bg-color1);
+}
+
+#experiencia{
+    grid-row-start: 3;
+    grid-row-end: 3;
+    width: 100%;
+    background-color: var(--bg-color2);
+    padding: 100px 180px;
+}
+
+#projetos{
+    grid-row-start: 4;
+    grid-row-end: 4;
+    width: 100%;
+    padding: 100px 180px;
+    background-color: var(--bg-color1);
+}
+
+#contato{
+    grid-row-start: 5;
+    grid-row-end: 5;
+    width: 100%;
+    background-color: var(--bg-color2);
+}
+
+#footer{
+    grid-row-start: 6;
+    grid-row-end: 6;
+    min-height: 100px;
+    width: 100%;
+    background-color: var(--bg-color1);
+}
+
+/* =============================================== */
+
+/* xxl | Extra extra large | (Monitor Grande) */
+@media only screen and (min-width: 1440px) {
+    .container{
+        max-width: 1440px;
+    }
+}
+
+/* lg | Large | (Monitor) */
+@media only screen and (max-width: 1371px) {
+
+    #foto{
+        margin-right: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 1180px) {
+
+    #about{
+        display: flex;
+        flex-direction: column;
+        padding: 60px 120px;
+    }
+
+    #foto{
+        margin-bottom: 20px;
+    }
+
+    #projetos{
+        padding: 60px 180px;
+    }
+
+    .cardProjeto{
+        width: 100%;
+    }
+}
+
+/* md | Medium | (Tablet) */
+@media only screen and (max-width: 768px) {
+    #about{
+        display: flex;
+        flex-direction: column;
+        padding: 60px 30px;
+    }
+
+    #foto{
+        width: 300px;
+        height: 300px;
+        margin-right: 0px;
+    }
+
+    #experiencia{
+        padding: 60px 30px;
+    }
+
+    #projetos{
+        padding: 30px 30px;
+    }
+
+    .cardProjeto{
+        width: 100%;
+    }
+
+    #contato{
+        padding: 60px 30px;
+    }
+
+    .formulario input, .formulario textarea, .formulario button {
+        width: 100%;
+    }
+
+    #banner{
+        flex-direction: column;
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+}
+
+/* sm | Small | (Mobile) */
+@media only screen and (max-width: 576px) {
+
+}
+
+/* =============================================== */
+

@@ -1,0 +1,54 @@
+#contato{
+    padding: 80px 0px;
+}
+
+/* ==================================== */
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario h1{
+    font-size: 28px;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.formulario input, .formulario textarea, .formulario button {
+    padding: 16px;
+    margin-bottom: 12px;
+    width: 550px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: var(--font-primary);
+    background-color: var(--bg-colorForm);
+    color: white;
+}
+
+.formulario input::placeholder, .formulario textarea::placeholder {
+    font-size: 16px;
+    font-family: var(--font-primary);
+    color: #C4C4C4;
+}
+
+.formulario textarea{
+    resize: none;
+    padding-bottom: 100px;
+    color: white;
+}
+
+.formulario button{
+    background: none;
+    border: solid 3px;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-image: linear-gradient(90deg, #9358F7 , #10D7E2 100%) 1;
+}

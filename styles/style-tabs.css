@@ -1,0 +1,74 @@
+#tabsExperiencia{
+    width: 100%;
+    font-size: 16px;
+    display: grid;
+    grid-template-columns: 2fr 9fr;
+}
+
+.tabs{
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: var(--bg-color2);
+}
+
+.tabs h3{
+    height: 20%;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    position: relative;
+    padding: 10px;
+}
+
+.tab-content{
+    background-color: var(--bg-color1);
+    padding: 20px;
+}
+
+.tab-content h4{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.tab-content p{
+    text-align: justify;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+
+}
+
+.tab-content h5{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: var(--blue-color);
+}
+
+.tab-content div{
+    display: none;
+    color: white;
+}
+
+.tab-content .active{
+    display: block;
+}
+
+.tabs .active{
+    background-color: var(--bg-color1);
+}
+
+.tabs .active{
+    background-color: var(--bg-color1);
+}
+
+.tabs .active #barraTab{
+    height: 100%;
+    width: 5px;
+    background-color: var(--blue-color);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}

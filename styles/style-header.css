@@ -1,0 +1,123 @@
+#header{
+
+}
+
+/* ============================================ */
+
+#navHeader{
+    height: 105px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+    border-bottom: solid 4px var(--bg-color1);
+    color: white;
+    padding: 0px 180px;
+}
+
+#brand{
+    cursor: pointer;
+    font-size: 18px;
+    color: var(--blue-color);
+}
+
+#navItems{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+#navItems li {
+    display: block;
+    padding: 5px;
+    cursor: pointer;
+/*     background-color: red; */
+}
+
+/* ============================================ */
+
+#banner{
+    min-height: 515px;
+    width: 100%;
+/*     background-color: red; */
+    display: flex;
+    padding-left: 180px;
+}
+
+/* ============================================ */
+
+#sobre{
+/*     background-color: blue; */
+    min-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+/*     align-items: center; */
+    color: white;
+}
+
+#sobreSobre{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+#ola{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+#pauloGuedes{
+    font-size: 64px;
+    font-weight: 500;
+    text-transform:capitalize;
+    color: var(--blue-color);
+}
+
+#fullStack{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.btnsHeader{
+    margin-top: 60px;
+    align-self: flex-start;
+    display: flex;
+    gap: 20px;
+}
+
+#btnLinkedin, #btnGitHub{
+    width: 150px;
+    height: 45px;
+    cursor: pointer;
+    border: 3px solid;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight:600;
+    background-color: none;
+    background:none;
+    color: white;
+}
+
+#btnLinkedin{
+    border-image: linear-gradient(90deg, #9358F7 , #10D7E2 100%) 1;
+}
+
+#btnGitHub{
+    border-image: linear-gradient(90deg, #D24074 , #6518B4 100%) 1;
+}
+
+/* ============================================ */
+
+#vector{
+/*     background-color: green; */
+    min-width: 50%;
+    min-height: 515px;
+    background-image: url("../assets/images/Looper\ BG.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

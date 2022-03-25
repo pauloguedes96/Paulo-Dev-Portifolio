@@ -1,0 +1,84 @@
+#about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ============================================ */
+
+#foto{
+    width: 350px;
+    height: 350px;
+    background-image: url("../assets/images/foto-perfil.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#barFoto{
+    height: 100%;
+    width: 5px;
+    background-color: var(--blue-color);
+}
+
+/* ============================================ */
+
+#containSobre{
+    max-width: 500px;
+    height: 350px;
+    color: white;
+/*     background-color: red; */
+}
+
+#sobreMinTitle{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+#sobreMinCidade{
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+#sobreMinParagrafo{
+    font-size: 18px;
+    font-weight: 200;
+    margin-bottom: 30px;
+
+}
+
+#socialIconsSobre{
+    display: flex;
+    gap: 20px;
+}
+
+/* ======================================== */
+
+.btnsAbout{
+    margin-top: 40px;
+    align-self: flex-start;
+    display: flex;
+    gap: 20px;
+}
+
+#btnCurriculo, #btnEmail{
+    width: 150px;
+    height: 45px;
+    cursor: pointer;
+    border: 3px solid;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight:600;
+    background-color: none;
+    background:none;
+    color: white;
+}
+
+#btnCurriculo{
+    border-image: linear-gradient(90deg, #9358F7 , #10D7E2 100%) 1;
+}
+
+#btnEmail{
+    border-image: linear-gradient(90deg, #D24074 , #6518B4 100%) 1;
+}
