@@ -6,3 +6,11 @@
     align-items: center;
     justify-content: center; */
 }
+
+#titleExperiencia{
+    color: white;
+    margin-bottom: 30px;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}

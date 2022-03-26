@@ -31,8 +31,11 @@
 }
 
 #sobreMinTitle{
-    font-size: 24px;
+    color: white;
     margin-bottom: 30px;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 #sobreMinCidade{
@@ -68,8 +71,10 @@
     cursor: pointer;
     border: 3px solid;
     border-radius: 7px;
+    font-family: var(--font-primary);
     font-size: 16px;
-    font-weight:600;
+    font-weight:400;
+    letter-spacing: 0.5px;
     background-color: none;
     background:none;
     color: white;

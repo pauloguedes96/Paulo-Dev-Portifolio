@@ -11,10 +11,12 @@
     align-items: center;
 }
 
-.formulario h1{
-    font-size: 28px;
-    margin-bottom: 25px;
+.formulario h2{
     color: white;
+    margin-bottom: 30px;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .formulario input, .formulario textarea, .formulario button {
@@ -46,9 +48,9 @@
     background: none;
     border: solid 3px;
     color: white;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 18px;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     cursor: pointer;
     border-image: linear-gradient(90deg, #9358F7 , #10D7E2 100%) 1;
 }

@@ -17,7 +17,7 @@
     height: 20%;
     display: grid;
     place-items: center;
-    font-weight: 600;
+    font-weight: 500;
     cursor: pointer;
     color: white;
     position: relative;
@@ -32,19 +32,21 @@
 .tab-content h4{
     font-size: 28px;
     margin-bottom: 20px;
+    font-weight: 500;
 }
 
 .tab-content p{
     text-align: justify;
     line-height: 24px;
     letter-spacing: 0.4px;
-
+    font-weight: 300;
 }
 
 .tab-content h5{
     font-size: 20px;
     margin-bottom: 20px;
     color: var(--blue-color);
+    font-weight: 500;
 }
 
 .tab-content div{

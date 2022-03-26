@@ -5,11 +5,12 @@
 /* ========================================= */
 
 #titleProjetos{
-    font-size: 24px;
     color: white;
+    margin-bottom: 20px;
+    font-size: 24px;
     text-transform: uppercase;
-    width: 100%;
-    padding: 5px;
+    letter-spacing: 1px;
+    padding-left: 15px;
 }
 
 /* ========================================= */
@@ -30,7 +31,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 15px;
-    border: solid 1px red;
+/*     border: solid 1px red; */
 }
 
 .bodyCardProjeto{
@@ -70,8 +71,10 @@
     cursor: pointer;
     border: 3px solid;
     border-radius: 7px;
+    font-family: var(--font-primary);
     font-size: 16px;
-    font-weight:600;
+    font-weight:500;
+    letter-spacing: 0.5px;
     background-color: none;
     background:none;
     color: white;
