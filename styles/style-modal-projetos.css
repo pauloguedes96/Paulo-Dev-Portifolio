@@ -1,5 +1,5 @@
 #modal{
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     width: 100vw;
@@ -40,8 +40,11 @@
 #headerProjetoModal{
     width: 100%;
     height: 200px;
-    background-color: red;
+/*     background-color: red; */
     margin-bottom: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /* ============================================ */
 #titleProjetoModal{

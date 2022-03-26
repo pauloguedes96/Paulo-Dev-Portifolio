@@ -78,9 +78,6 @@
     background-color: none;
     background:none;
     border-image: linear-gradient(90deg, #9358F7 , #10D7E2 100%) 1;
-}
-
-.btnProjeto a {
     text-decoration:none;
     color: white;
     font-family: var(--font-primary);
