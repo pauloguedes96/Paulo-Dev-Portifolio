@@ -46,6 +46,9 @@
     width: 100%;
     min-height: 200px;
     background-color: #C4C4C4;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
 }
 
 .barHeaderProjeto{
@@ -63,6 +66,7 @@
     font-size: 16px;
     font-weight: 300;
     color: white;
+/*     background-color: red; */
 }
 
 .btnProjeto{
@@ -71,14 +75,18 @@
     cursor: pointer;
     border: 3px solid;
     border-radius: 7px;
+    background-color: none;
+    background:none;
+    border-image: linear-gradient(90deg, #9358F7 , #10D7E2 100%) 1;
+}
+
+.btnProjeto a {
+    text-decoration:none;
+    color: white;
     font-family: var(--font-primary);
     font-size: 16px;
     font-weight:500;
     letter-spacing: 0.5px;
-    background-color: none;
-    background:none;
-    color: white;
-    border-image: linear-gradient(90deg, #9358F7 , #10D7E2 100%) 1;
 }
 
 /* ========================================= */

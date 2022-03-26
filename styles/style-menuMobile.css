@@ -1,0 +1,101 @@
+#menu {
+    display: flex; 
+    list-style: none;
+    gap: 5px;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    /* background-color: red; */
+}
+
+.linkMenu{
+    display: block;
+    text-decoration: none; 
+    color: white; 
+    font-size: 16px;  
+    padding: 10px;
+}
+
+#btnMobile{
+    display: none;
+}
+
+@media only screen and (max-width: 886px) {
+
+    #navHeader{
+        justify-content: space-evenly;
+        padding: 0px 0px;
+    }
+    
+    #btnMobile{
+        display: flex;
+        gap: 5px;
+        padding: 5px 1px;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        color: white; 
+        font-family: var(--font-primary);
+        font-weight: 500;
+    }
+
+    #hamburguer{
+        color: white; 
+        width: 20px;
+        border-top: solid 2px;
+    }
+
+    #hamburguer::after, #hamburguer::before{
+        content: "";
+        display: block;
+        width: 20px;
+        height: 2px;
+        margin-top: 5px;
+        background: currentColor;
+        transition: .3s;
+        position: relative;
+    }
+
+    #menu {
+         display: block;
+         position: absolute;
+         width: 100%;
+         top: 110px;
+         right: 0px;
+         background-color: var(--bg-color1);
+         transition: .6s;
+         z-index: 10000;
+         height: 0px;
+         visibility: hidden;
+         overflow-y: hidden;
+    }   
+ 
+    .linkMenu{
+        color: white;
+        padding: 10px 0;
+        margin: 0 5px;
+        border-bottom: solid 2px var(--blue-color);
+    }
+
+    #navHeader.active #menu{
+        display: block;
+        height: calc(100vh - 110px);
+        visibility: visible;
+        overflow-y: auto;
+    }
+
+    #navHeader.active #hamburguer{
+        /* background: blue; */
+        border-top-color: transparent;
+    }
+
+    #navHeader.active #hamburguer::before {
+        transform:rotate(135deg);
+    }
+
+    #navHeader.active #hamburguer::after {
+        transform:rotate(-135deg);
+        top: -7px;
+    }
+}

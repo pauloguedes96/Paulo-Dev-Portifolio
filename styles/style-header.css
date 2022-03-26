@@ -95,13 +95,20 @@
     cursor: pointer;
     border: 3px solid;
     border-radius: 7px;
+    background-color: none;
+    background:none;
+
+}
+
+#btnLinkedin a, #btnGitHub a{
+    text-decoration: none;
     font-family: var(--font-primary);
     font-size: 16px;
     font-weight:400;
     letter-spacing: 0.5px;
-    background-color: none;
-    background:none;
     color: white;
+/*     background-color: red; */
+    padding: 10px 40px;
 }
 
 #btnLinkedin{
@@ -117,7 +124,7 @@
 #vector{
 /*     background-color: green; */
     min-width: 50%;
-    min-height: 515px;
+    min-height: 515px; 
     background-image: url("../assets/images/Looper\ BG.png");
     background-repeat: no-repeat;
     background-position: center;

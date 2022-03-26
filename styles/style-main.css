@@ -5,6 +5,8 @@
 @import url(./style-projetos.css);
 @import url(./style-contato.css);
 @import url(./style-footer.css);
+@import url(./style-menuMobile.css);
+@import url(./style-modal-projetos.css);
 
 *{
     padding: 0px;
@@ -176,6 +178,9 @@ body{
 /* sm | Small | (Mobile) */
 @media only screen and (max-width: 576px) {
 
+    #vector{
+            min-height: 270px;
+        }
 }
 
 /* =============================================== */

@@ -34,18 +34,56 @@
 
 <body>
 
+    <div id="modal">
+        <div id="modalContent">
+
+            <div id="projetoModal">
+                <div id="headerProjetoModal"></div>
+                <div id="bodyCardProjetoModal">
+                    <div id="titleProjetoModal">Nome do Projeto</div>
+                    <div id="descProjetoModal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, impedit
+                        quis minima molestiae temporibus voluptatibus ipsa at, ullam quibusdam, incidunt ad quidem
+                        ea
+                        accusantium autem fugiat nisi consequatur facilis quo.</div>
+                    <button id="btnProjetoModal"><a href="#" target="_blank">Acessar Demonstração</a></button>
+                </div>
+            </div>
+
+
+            <div id="closeModal" onclick="mostraModal()">X</div>
+        </div>
+    </div>
+
     <main class="container">
 
         <header id="header">
-            <!--  <nav id="navHeader">
+
+             <nav id="navHeader">
+
                 <div id="brand">Portifólio</div>
-                <ul id="navItems">
-                    <li>Home</li>
-                    <li>Sobre Min</li>
-                    <li>Esperiência</li>
-                    <li>Projetos</li>
+
+                <button id="btnMobile">Menu
+                    <span id="hamburguer"></span>
+                </button>
+
+                <ul id="menu">
+
+                    <a class="linkMenu" href="#">
+                        <li>Home</li>
+                    </a>
+                    <a class="linkMenu" href="#">
+                        <li>Sobre Min</li>
+                    </a>
+                    <a class="linkMenu" href="#">
+                        <li>Esperiência</li>
+                    </a>
+                    <a class="linkMenu" href="#">
+                        <li>Projetos</li>
+                    </a>
+
                 </ul>
-            </nav> -->
+
+            </nav>
 
             <div id="banner">
 
@@ -58,10 +96,17 @@
 
                         <div class="btnsHeader">
                             <button id="btnLinkedin">
-                                <p>Linkedin</p>
-
+                                <a href="https://www.linkedin.com/in/pauloguedes96/" target="_blank">
+                                    Linkedin
+                                </a>
                             </button>
-                            <button id="btnGitHub">GitHub</button>
+
+                            <button id="btnGitHub">
+                                <a href="https://github.com/pauloguedes96" target="_blank">
+                                    GitHub
+                                </a>
+                            </button>
+
                         </div>
 
                     </div>
@@ -102,8 +147,13 @@
                 </div>
 
                 <div class="btnsAbout">
-                    <button id="btnCurriculo">Curriculo</button>
-                    <button id="btnEmail">E-mail</button>
+                    <button id="btnCurriculo">
+                        <a href="./assets/curriculo.pdf" target="_blank">Curriculo</a>
+                    </button>
+
+                    <button id="btnEmail">
+                        <a href="mailto:cesarmota94@gmail.com" target="_blank">E-mail</a>
+                    </button>
                 </div>
 
             </div>
@@ -173,11 +223,11 @@
                             quis minima molestiae temporibus voluptatibus ipsa at, ullam quibusdam, incidunt ad quidem
                             ea
                             accusantium autem fugiat nisi consequatur facilis quo.</div>
-                        <button class="btnProjeto">Visualizar</button>
+                        <button class="btnProjeto" onclick="mostraModal()"><a href="">Visualizar</a></button>
                     </div>
                 </div>
 
-                <div id="projeto1" class="cardProjeto">
+                <div id="projeto2" class="cardProjeto">
                     <div class="headerProjeto">
                         <div class="barHeaderProjeto"></div>
                     </div>
@@ -187,11 +237,11 @@
                             quis minima molestiae temporibus voluptatibus ipsa at, ullam quibusdam, incidunt ad quidem
                             ea
                             accusantium autem fugiat nisi consequatur facilis quo.</div>
-                        <button class="btnProjeto">Visualizar</button>
+                        <button class="btnProjeto" onclick="mostraModal()"><a href="">Visualizar</a></button>
                     </div>
                 </div>
 
-                <div id="projeto1" class="cardProjeto">
+                <div id="projeto3" class="cardProjeto">
                     <div class="headerProjeto">
                         <div class="barHeaderProjeto"></div>
                     </div>
@@ -201,11 +251,11 @@
                             quis minima molestiae temporibus voluptatibus ipsa at, ullam quibusdam, incidunt ad quidem
                             ea
                             accusantium autem fugiat nisi consequatur facilis quo.</div>
-                        <button class="btnProjeto">Visualizar</button>
+                        <button class="btnProjeto" onclick="mostraModal()"><a href="">Visualizar</a></button>
                     </div>
                 </div>
 
-                <div id="projeto1" class="cardProjeto">
+                <div id="projeto4" class="cardProjeto">
                     <div class="headerProjeto">
                         <div class="barHeaderProjeto"></div>
                     </div>
@@ -215,7 +265,7 @@
                             quis minima molestiae temporibus voluptatibus ipsa at, ullam quibusdam, incidunt ad quidem
                             ea
                             accusantium autem fugiat nisi consequatur facilis quo.</div>
-                        <button class="btnProjeto">Visualizar</button>
+                        <button class="btnProjeto" onclick="mostraModal()"><a href="">Visualizar</a></button>
                     </div>
                 </div>
 
@@ -247,6 +297,8 @@
     <script src="./scripts/index.js"></script>
     <script src="./scripts/validaForm.js"></script>
     <script src="./scripts/tabs.js"></script>
+    <script src="./scripts/menuMobile.js"></script>
+    <script src="./scripts/modal.js"></script>
 </body>
 
 </html>
