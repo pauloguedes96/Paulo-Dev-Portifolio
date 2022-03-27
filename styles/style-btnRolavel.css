@@ -29,10 +29,10 @@
     align-items: center;
     font-size: 40px;
     text-decoration: none;
-    z-index:100000;
     background-image: url('/assets/icons/expand_less_black_48dp.svg');
     background-repeat: no-repeat;
     background-position: center;
+    z-index:100000;
 }
 
 #topFloat.activeTop{
