@@ -27,6 +27,7 @@
 .tab-content{
     background-color: var(--bg-color1);
     padding: 20px;
+    cursor: default;
 }
 
 .tab-content h4{

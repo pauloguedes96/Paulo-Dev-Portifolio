@@ -7,6 +7,7 @@
 @import url(./style-footer.css);
 @import url(./style-menuMobile.css);
 @import url(./style-modal-projetos.css);
+@import url(./style-btnRolavel.css);
 
 *{
     padding: 0px;

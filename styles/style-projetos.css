@@ -11,6 +11,7 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     padding-left: 15px;
+    cursor: default;
 }
 
 /* ========================================= */
@@ -60,12 +61,14 @@
 .titleProjeto{
     font-size: 24px;
     color: white;
+    cursor: default;
 }
 
 .descProjeto{
     font-size: 16px;
     font-weight: 300;
     color: white;
+    cursor: default;
 /*     background-color: red; */
 }
 

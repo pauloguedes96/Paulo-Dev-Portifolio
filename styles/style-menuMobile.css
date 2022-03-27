@@ -20,7 +20,7 @@
     display: none;
 }
 
-@media only screen and (max-width: 886px) {
+@media only screen and (max-width: 928px) {
 
     #navHeader{
         justify-content: space-evenly;

@@ -17,7 +17,7 @@
 }
 
 #brand{
-    cursor: pointer;
+    cursor: default;
     font-size: 18px;
     color: var(--blue-color);
 }
@@ -64,12 +64,14 @@
 }
 
 #ola{
+    cursor: default;
     text-transform: uppercase;
     font-weight: 500;
     font-size: 24px;
 }
 
 #pauloGuedes{
+    cursor: default;
     font-size: 64px;
     font-weight: 500;
     text-transform:capitalize;
@@ -77,6 +79,7 @@
 }
 
 #fullStack{
+    cursor: default;
     text-transform: uppercase;
     font-weight: 500;
     font-size: 24px;

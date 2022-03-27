@@ -34,31 +34,11 @@
 
 <body>
 
-    <div id="modal">
-        <div id="modalContent">
-
-            <div id="projetoModal">
-                <div id="headerProjetoModal"></div>
-                <div id="bodyCardProjetoModal">
-                    <div id="titleProjetoModal">Nome do Projeto</div>
-                    <div id="descProjetoModal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, impedit
-                        quis minima molestiae temporibus voluptatibus ipsa at, ullam quibusdam, incidunt ad quidem
-                        ea
-                        accusantium autem fugiat nisi consequatur facilis quo.</div>
-                    <button id="btnProjetoModal"><a href="#" target="_blank">Acessar Demonstração</a></button>
-                </div>
-            </div>
-
-
-            <div id="closeModal" onclick="mostraModal()">X</div>
-        </div>
-    </div>
-
     <main class="container">
 
         <header id="header">
 
-             <nav id="navHeader">
+            <nav id="navHeader">
 
                 <div id="brand">Portifólio</div>
 
@@ -68,17 +48,20 @@
 
                 <ul id="menu">
 
-                    <a class="linkMenu" href="#">
-                        <li>Home</li>
+                    <a class="linkMenu" href="#header">
+                        <li href="#header">Home</li>
                     </a>
-                    <a class="linkMenu" href="#">
-                        <li>Sobre Min</li>
+                    <a class="linkMenu" href="#about">
+                        <li href="#about">Sobre Min</li>
                     </a>
-                    <a class="linkMenu" href="#">
-                        <li>Esperiência</li>
+                    <a class="linkMenu" href="#experiencia">
+                        <li href="#experiencia">Experiência</li>
                     </a>
-                    <a class="linkMenu" href="#">
-                        <li>Projetos</li>
+                    <a class="linkMenu" href="#projetos">
+                        <li href="#projetos">Projetos</li>
+                    </a>
+                    <a class="linkMenu" href="#contato">
+                        <li href="#contato">Contato</li>
                     </a>
 
                 </ul>
@@ -152,7 +135,7 @@
                     </button>
 
                     <button id="btnEmail">
-                        <a href="mailto:cesarmota94@gmail.com" target="_blank">E-mail</a>
+                        <a href="https://api.whatsapp.com/send?phone=5538998410769" target="_blank">WhatsApp</a>
                     </button>
                 </div>
 
@@ -294,11 +277,38 @@
 
     </main>
 
+    <div id="modal">
+        <div id="modalContent">
+
+            <div id="projetoModal">
+                <div id="headerProjetoModal"></div>
+                <div id="bodyCardProjetoModal">
+                    <div id="titleProjetoModal">Nome do Projeto</div>
+                    <div id="descProjetoModal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, impedit
+                        quis minima molestiae temporibus voluptatibus ipsa at, ullam quibusdam, incidunt ad quidem
+                        ea
+                        accusantium autem fugiat nisi consequatur facilis quo.</div>
+                    <button id="btnProjetoModal"><a href="#" target="_blank">Acessar Demonstração</a></button>
+                </div>
+            </div>
+
+            <div id="closeModal" onclick="mostraModal()">X</div>
+        </div>
+    </div>
+
+<!--     <a id="whatsAppFloat" target="_blank" href="https://api.whatsapp.com/send?phone=5538998410769">
+        <img src="./assets/icons/whatsapp_white_36dp.svg" alt="">
+    </a> -->
+
+    <a id="topFloat" href="#header"></a>
+
     <script src="./scripts/index.js"></script>
     <script src="./scripts/validaForm.js"></script>
     <script src="./scripts/tabs.js"></script>
     <script src="./scripts/menuMobile.js"></script>
     <script src="./scripts/modal.js"></script>
+    <script src="./scripts/scroll-suave.js"></script>
+    <script src="./scripts/scroll-suave-top.js"></script>
 </body>
 
 </html>

@@ -24,6 +24,7 @@
 /* ============================================ */
 
 #containSobre{
+    cursor: default;
     max-width: 500px;
     height: 350px;
     color: white;
