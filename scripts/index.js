@@ -24,10 +24,10 @@ let projetos = [
     },
     {
         id:25345,
-        nome: "Conversor de Moedas",
-        description: "Projeto desenvolvido para que de maneira simplificada se possa fazer a conversão de moedas.",
+        nome: "App Tempo Fácil",
+        description: "Projeto desenvolvido para que de maneira simplificada se possa saber o tempo em sua cidade",
         capa: "./assets/images/capa-3.jpg",
-        link: "https://pauloguedes96.github.io/Conversor-de-Moedas/"
+        link: "https://pauloguedes96.github.io/App-Tempo-Facil/"
     },
     {
         id:534534,
