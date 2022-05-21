@@ -24,7 +24,7 @@
     background-color: var(--blue-color);
     color: var(--bg-color2);
     border-radius: 50px;
-    display: none;
+    display: flex;
     justify-content: center;
     align-items: center;
     font-size: 40px;
@@ -33,8 +33,12 @@
     background-repeat: no-repeat;
     background-position: center;
     z-index:100000;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity .5s linear;
 }
 
 #topFloat.activeTop{
-    display: flex;
+    visibility: visible;
+    opacity: 1;
 }

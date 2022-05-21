@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         //pega distancia/posição da section em
         //relação ao documento ou elemento pai
-        let to = section.offsetTop; 
+        let to = section.offsetTop;
 
         //faz rolar a página até 
         //a posição indicada, de maneira suave
@@ -27,11 +27,15 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // Pega a altura da pagina
+    let pagina = document.querySelector('body').clientHeight;
+    console.log(pagina);
+
     /* Quando chegar no final faz o botão aparecer */
     window.addEventListener('scroll', () => {
-        if(window.pageYOffset > 2800) {
+        if (window.pageYOffset > (pagina - 1000)) {
             btnTopFloat.classList.add('activeTop');
-        }else{
+        } else {
             btnTopFloat.classList.remove('activeTop');
         }
     });
