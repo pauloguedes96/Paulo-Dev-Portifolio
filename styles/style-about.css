@@ -9,7 +9,8 @@
 #foto{
     width: 350px;
     height: 350px;
-    background-image: url("../assets/images/foto-perfil.png");
+    background-image: url("../assets/images/foto-perfil.jpg");
+    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
